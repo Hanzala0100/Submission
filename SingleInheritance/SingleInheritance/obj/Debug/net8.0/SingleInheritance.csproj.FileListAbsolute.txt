@@ -1,0 +1,14 @@
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.exe
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.deps.json
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.runtimeconfig.json
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.dll
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.pdb
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.AssemblyInfoInputs.cache
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.AssemblyInfo.cs
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.dll
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\refint\SingleInheritance.dll
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.pdb
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.genruntimeconfig.cache
+C:\Users\hanzala.sarguroh\Desktop\Assignements\SingleInheritance\SingleInheritance\obj\Debug\net8.0\ref\SingleInheritance.dll
