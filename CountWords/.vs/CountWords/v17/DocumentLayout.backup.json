@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignements\\CountWords\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE71F42-54D8-413B-B9A9-E09476BE52CA}|CountWords\\CountWords.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignements\\countwords\\countwords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE71F42-54D8-413B-B9A9-E09476BE52CA}|CountWords\\CountWords.csproj|solutionrelative:countwords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignements\\CountWords\\CountWords\\Program.cs",
+              "RelativeDocumentMoniker": "CountWords\\Program.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignements\\CountWords\\CountWords\\Program.cs",
+              "RelativeToolTip": "CountWords\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T11:00:13.061Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

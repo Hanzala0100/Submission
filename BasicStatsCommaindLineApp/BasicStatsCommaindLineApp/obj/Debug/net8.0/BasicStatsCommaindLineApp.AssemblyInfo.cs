@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicStatsCommaindLineApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c7ad7186dbbe5fc515e21454abd44a0fd74b587")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicStatsCommaindLineApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicStatsCommaindLineApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
