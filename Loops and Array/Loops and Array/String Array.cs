@@ -8,7 +8,7 @@ namespace Loops_and_Array
 {
     internal class String_Array
     {
-        string[] Names = { "Abhay", "Annu", "Arpit", "Rugveda", "Shruti" };
+        string[] Names = { "Hanzala", "ABC", "DEF", "GHI" };
         public void PrintNames()
         {
             foreach (string name in Names)
