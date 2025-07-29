@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\abstract class demo\\abstractclassdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\abstract class demo\\abstractclassdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\abstract class demo\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\abstract class demo\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\interfacedemo\\interfacedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\interfacedemo\\interfacedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\diamondproblem\\diamondproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\diamondproblem\\diamondproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\diamondproblem\\d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\diamondproblem\\d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\diamondproblem\\ic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\diamondproblem\\ic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\diamondproblem\\ib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\diamondproblem\\ib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\diamondproblem\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\diamondproblem\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\interfacedemo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\interfacedemo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\interfacedemo\\idrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\interfacedemo\\idrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\abstract class and interface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\abstract class and interface.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|c:\\users\\hanzala.sarguroh\\desktop\\assignments\\abstract class and interface\\abstract class and interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6A9B53-89D5-467F-BA54-2981EFFB6EC9}|Abstract Class and Interface\\Abstract Class and Interface.csproj|solutionrelative:abstract class and interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "D.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\D.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\DiamondProblem\\D.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\D.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\DiamondProblem\\D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:16:19.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiamondProblem.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\DiamondProblem.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\DiamondProblem\\DiamondProblem.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\DiamondProblem.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\DiamondProblem\\DiamondProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:15:53.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IC.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IC.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\DiamondProblem\\IC.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IC.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\DiamondProblem\\IC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:15:43.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IB.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IB.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\DiamondProblem\\IB.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IB.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\DiamondProblem\\IB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:15:39.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IA.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IA.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\DiamondProblem\\IA.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\DiamondProblem\\IA.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\DiamondProblem\\IA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:15:15.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\Car.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\InterfaceDemo\\Car.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\Car.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\InterfaceDemo\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:14:50.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDrive.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\IDrive.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\InterfaceDemo\\IDrive.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\IDrive.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\InterfaceDemo\\IDrive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:14:39.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InterfaceDemo.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\InterfaceDemo.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\InterfaceDemo\\InterfaceDemo.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\InterfaceDemo\\InterfaceDemo.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\InterfaceDemo\\InterfaceDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:14:31.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbstractClassDemo.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class Demo\\AbstractClassDemo.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\Abstract Class Demo\\AbstractClassDemo.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class Demo\\AbstractClassDemo.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\Abstract Class Demo\\AbstractClassDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:14:08.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class Demo\\Animal.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\Abstract Class Demo\\Animal.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class Demo\\Animal.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\Abstract Class Demo\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:13:58.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Abstract Class and Interface",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class and Interface.csproj",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\Abstract Class and Interface.csproj",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Abstract Class and Interface.csproj",
+              "RelativeToolTip": "Abstract Class and Interface\\Abstract Class and Interface.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T10:14:16.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract Class and Interface\\Program.cs",
+              "ToolTip": "C:\\Users\\hanzala.sarguroh\\Desktop\\Assignments\\Abstract Class and Interface\\Abstract Class and Interface\\Program.cs",
+              "RelativeToolTip": "Abstract Class and Interface\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:12:09.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
