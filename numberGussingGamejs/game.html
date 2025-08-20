@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-lg shadow-md p-8 max-w-md w-full">
+      <!-- Game Title -->
+      <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">
+        Guess the Number!
+      </h1>
+
+      <!-- Instructions -->
+      <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+        <h2 class="font-semibold text-blue-800 mb-2">How to Play:</h2>
+        <ul class="text-sm text-blue-700 space-y-1">
+          <li>
+            • <span class="text-yellow-600 font-medium">Yellow</span> = Your
+            guess is too low
+          </li>
+          <li>
+            • <span class="text-red-600 font-medium">Red</span> = Your guess is
+            too high
+          </li>
+          <li>
+            • <span class="text-green-600 font-medium">Green</span> = Correct!
+          </li>
+          <li>• You have 6 attempts</li>
+        </ul>
+      </div>
+
+      <!-- Slider -->
+      <div class="mb-6">
+        <label class="block text-gray-700 font-medium mb-2"
+          >Move slider to choose number (1-10):</label
+        >
+        <input
+          type="range"
+          id="guess-slider"
+          min="1"
+          max="10"
+          value="5"
+          class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+        />
+      </div>
+
+      <div class="grid grid-cols-5 gap-2 mb-6" id="number-buttons"></div>
+
+      <div class="text-center mb-6">
+        <p class="text-lg font-semibold text-gray-700">
+          Attempt: <span id="attempt-count">1</span> / 6
+        </p>
+      </div>
+
+      <div class="text-center">
+        <button
+          id="restart-button"
+          class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors"
+        >
+          New Game
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="game-over-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center"
+    >
+      <div class="bg-white rounded-lg p-6 max-w-sm w-full mx-4 text-center">
+        <h3 id="modal-heading" class="text-xl font-bold mb-2"></h3>
+        <p id="modal-message" class="text-gray-600 mb-4"></p>
+        <button
+          id="modal-restart-button"
+          class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors"
+        >
+          Play Again
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let secretNumber;
+      let attemptsUsed;
+      let gameOver = false;
+      const maxAttempts = 6;
+
+      const slider = document.getElementById("guess-slider");
+      const attemptCounter = document.getElementById("attempt-count");
+      const numberButtonsContainer = document.getElementById("number-buttons");
+      const restartButton = document.getElementById("restart-button");
+      const modal = document.getElementById("game-over-modal");
+      const modalHeading = document.getElementById("modal-heading");
+      const modalMessage = document.getElementById("modal-message");
+      const modalRestartButton = document.getElementById(
+        "modal-restart-button"
+      );
+
+      let buttons = [];
+
+      function startNewGame() {
+        secretNumber = Math.floor(Math.random() * 10) + 1;
+        attemptsUsed = 0;
+        gameOver = false;
+        attemptCounter.textContent = "1";
+        slider.value = "5";
+        modal.classList.add("hidden");
+
+        buttons.forEach((button) => {
+          button.className =
+            "w-12 h-12 rounded-full bg-gray-200 hover:bg-gray-300 font-semibold text-gray-700 transition-colors";
+        });
+      }
+
+      function createButtons() {
+        numberButtonsContainer.innerHTML = "";
+        buttons = [];
+
+        for (let i = 1; i <= 10; i++) {
+          const button = document.createElement("button");
+          button.textContent = i;
+          button.className =
+            "w-12 h-12 rounded-full bg-gray-200 hover:bg-gray-300 font-semibold text-gray-700 transition-colors";
+          button.addEventListener("click", () => makeGuess(i));
+          numberButtonsContainer.appendChild(button);
+          buttons.push(button);
+        }
+      }
+
+      function makeGuess(guess) {
+        if (gameOver) return;
+
+        const button = buttons[guess - 1];
+        attemptsUsed++;
+
+        if (guess === secretNumber) {
+          button.className =
+            "w-12 h-12 rounded-full bg-green-500 text-white font-semibold";
+          gameOver = true;
+          showGameOver(true);
+        } else if (guess < secretNumber) {
+          button.className =
+            "w-12 h-12 rounded-full bg-yellow-500 text-white font-semibold";
+        } else {
+          button.className =
+            "w-12 h-12 rounded-full bg-red-500 text-white font-semibold";
+        }
+
+        attemptCounter.textContent = attemptsUsed + 1;
+
+        if (attemptsUsed >= maxAttempts && !gameOver) {
+          gameOver = true;
+          showGameOver(false);
+        }
+      }
+
+      function showGameOver(won) {
+        if (won) {
+          modalHeading.textContent = "Hurray !! You Won!";
+          modalHeading.className = "text-xl font-bold mb-2 text-green-600";
+          modalMessage.textContent = `You guessed it in ${attemptsUsed} attempts!`;
+        } else {
+          modalHeading.textContent = "Ohoh! Game Over";
+          modalHeading.className = "text-xl font-bold mb-2 text-red-600";
+          modalMessage.textContent = `The number was ${secretNumber}. Better luck next time!`;
+        }
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      }
+
+      slider.addEventListener("input", () => {
+        if (gameOver) return;
+
+        const sliderValue = parseInt(slider.value);
+
+        buttons.forEach((button, index) => {
+          const buttonNumber = index + 1;
+          if (buttonNumber === sliderValue) {
+            if (buttonNumber === secretNumber) {
+              button.className =
+                "w-12 h-12 rounded-full bg-green-500 text-white font-semibold";
+            } else if (buttonNumber < secretNumber) {
+              button.className =
+                "w-12 h-12 rounded-full bg-yellow-500 text-white font-semibold";
+            } else {
+              button.className =
+                "w-12 h-12 rounded-full bg-red-500 text-white font-semibold";
+            }
+          } else {
+            if (
+              !button.classList.contains("bg-green-500") &&
+              !button.classList.contains("bg-yellow-500") &&
+              !button.classList.contains("bg-red-500")
+            ) {
+              button.className =
+                "w-12 h-12 rounded-full bg-gray-200 hover:bg-gray-300 font-semibold text-gray-700 transition-colors";
+            }
+          }
+        });
+      });
+
+      restartButton.addEventListener("click", startNewGame);
+      modalRestartButton.addEventListener("click", startNewGame);
+
+      createButtons();
+      startNewGame();
+    </script>
+  </body>
+</html>
