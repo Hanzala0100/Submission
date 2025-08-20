@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding Nemo Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-b from-blue-200 to-blue-400 min-h-screen flex items-center justify-center p-4"
+  >
+    <div class="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full">
+      <div class="text-center mb-6">
+        <h1 class="text-3xl font-bold text-orange-600 mb-2">Finding Nemo</h1>
+        <p class="text-gray-600">
+          Help find Nemooo! Click on the circles to search for him.
+        </p>
+      </div>
+
+      <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+        <h2 class="font-semibold text-blue-800 mb-2">How to Play:</h2>
+        <ul class="text-sm text-blue-700 space-y-1">
+          <li>• 🔵 Blue Circle = Not searched yet</li>
+          <li>• ❌ Red X = Wrong guess - Nemo is not here!</li>
+          <li>• 🐠 Nemo = You found him! Congratulations!</li>
+          <li>• You have 5 attempts to find Nemo</li>
+        </ul>
+      </div>
+
+      <div class="bg-cyan-100 border-4 border-cyan-200 rounded-lg p-6 mb-6">
+        <div
+          class="grid grid-cols-5 gap-4 justify-items-center"
+          id="game-grid"
+        ></div>
+      </div>
+
+      <div class="text-center mb-6">
+        <p class="text-lg font-semibold text-gray-700">
+          Attempts Used: <span id="attempt-count">0</span> / 5
+        </p>
+        <p class="text-sm text-gray-500 mt-1">
+          Click on the blue circles to search for Nemo!
+        </p>
+      </div>
+
+      <div class="text-center">
+        <button
+          id="new-game-button"
+          class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-bold text-lg transition-colors shadow-md"
+        >
+          🔄 New Game
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="game-over-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50"
+    >
+      <div
+        class="bg-white rounded-xl p-8 max-w-md w-full mx-4 text-center shadow-2xl"
+      >
+        <div id="modal-content"></div>
+        <button
+          id="modal-new-game-button"
+          class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold transition-colors mt-4 shadow-md"
+        >
+          🎮 Play Again
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let nemoPosition;
+      let attemptsUsed;
+      let gameOver = false;
+      let clickedPositions = new Set();
+      const maxAttempts = 5;
+      const totalPositions = 10;
+
+      const gameGrid = document.getElementById("game-grid");
+      const attemptCounter = document.getElementById("attempt-count");
+      const newGameButton = document.getElementById("new-game-button");
+      const modal = document.getElementById("game-over-modal");
+      const modalContent = document.getElementById("modal-content");
+      const modalNewGameButton = document.getElementById(
+        "modal-new-game-button"
+      );
+
+      let gridButtons = [];
+
+      const blueCircleIcon = `<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="35" fill="#3B82F6" stroke="#1E40AF" stroke-width="3"/>
+        </svg>`;
+
+      const redXIcon = `<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="80" fill="#EF4444" rx="10"/>
+            <path d="M20 20 L60 60 M60 20 L20 60" stroke="white" stroke-width="6" stroke-linecap="round"/>
+        </svg>`;
+
+      const nemoIcon = `<img src="nemo.jpeg" alt="Nemo" class="w-20 h-20 rounded-lg">`;
+
+      function startNewGame() {
+        nemoPosition = Math.floor(Math.random() * totalPositions);
+        attemptsUsed = 0;
+        gameOver = false;
+        clickedPositions.clear();
+        attemptCounter.textContent = "0";
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+
+        gridButtons.forEach((button, index) => {
+          button.innerHTML = blueCircleIcon;
+          button.className =
+            "w-20 h-20 cursor-pointer hover:scale-105 transition-transform rounded-lg";
+          button.disabled = false;
+        });
+      }
+
+      function createGameGrid() {
+        gameGrid.innerHTML = "";
+        gridButtons = [];
+
+        for (let i = 0; i < totalPositions; i++) {
+          const button = document.createElement("button");
+          button.innerHTML = blueCircleIcon;
+          button.className =
+            "w-20 h-20 cursor-pointer hover:scale-105 transition-transform rounded-lg";
+          button.addEventListener("click", () => makeGuess(i));
+          gameGrid.appendChild(button);
+          gridButtons.push(button);
+        }
+      }
+
+      function makeGuess(position) {
+        if (gameOver || clickedPositions.has(position)) return;
+
+        clickedPositions.add(position);
+        attemptsUsed++;
+        attemptCounter.textContent = attemptsUsed;
+
+        const button = gridButtons[position];
+
+        if (position === nemoPosition) {
+          button.innerHTML = nemoIcon;
+          button.className = "w-20 h-20 rounded-lg animate-bounce";
+          gameOver = true;
+          setTimeout(() => showGameOver(true), 800);
+        } else {
+          button.innerHTML = redXIcon;
+          button.className = "w-20 h-20 rounded-lg";
+
+          if (attemptsUsed >= maxAttempts) {
+            gameOver = true;
+            setTimeout(() => {
+              gridButtons[nemoPosition].innerHTML = nemoIcon;
+              gridButtons[nemoPosition].className =
+                "w-20 h-20 rounded-lg animate-pulse";
+              showGameOver(false);
+            }, 1000);
+          }
+        }
+
+        button.disabled = true;
+      }
+
+      function showGameOver(won) {
+        if (won) {
+          modalContent.innerHTML = `
+                    <div class="text-6xl mb-4">🎉</div>
+                    <h3 class="text-2xl font-bold text-green-600 mb-2">Congratulations, You Won!</h3>
+                    <p class="text-gray-600 mb-2">You found Nemo in ${attemptsUsed} attempts!</p>
+                    <div class="text-4xl">🐠✨</div>
+                `;
+        } else {
+          modalContent.innerHTML = `
+                    <div class="text-6xl mb-4">😢</div>
+                    <h3 class="text-2xl font-bold text-red-600 mb-2">Game Over!</h3>
+                    <p class="text-gray-600 mb-2">You couldn't find Nemo in 5 attempts.</p>
+                    <p class="text-sm text-gray-500">Nemo was hiding in position ${
+                      nemoPosition + 1
+                    }!</p>
+                    <div class="text-4xl mt-2">🐠💔</div>
+                `;
+        }
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      }
+
+      newGameButton.addEventListener("click", startNewGame);
+      modalNewGameButton.addEventListener("click", startNewGame);
+
+      createGameGrid();
+      startNewGame();
+    </script>
+  </body>
+</html>
