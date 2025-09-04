@@ -29,7 +29,7 @@ namespace TimesheetApp
             builder.Services.AddScoped<PasswordHasher<Employee>>();
 
             builder.Services.AddDbContext<TimesheetDbContext>(
-               options => options.UseSqlServer(builder.Configuration.GetConnectionString("SQL_URL")));
+               options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddControllers().AddJsonOptions(options =>
             {
